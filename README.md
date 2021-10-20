@@ -27,8 +27,7 @@ The needed system is illustrated in this diagram, you can use it to understand t
 - What is the type of the association used between the `Factory` and `Vehicle`? and why?
 
 ### Answer
-(replace this line with your answer)
-
+Factory class can have  an aggregation relationship with vehicle class which indicates that the the vehicle is a part of the factory.
 
 ---
 ## Notes:
