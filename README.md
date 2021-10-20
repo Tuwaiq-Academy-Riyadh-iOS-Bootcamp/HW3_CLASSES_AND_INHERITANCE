@@ -27,7 +27,9 @@ The needed system is illustrated in this diagram, you can use it to understand t
 - What is the type of the association used between the `Factory` and `Vehicle`? and why?
 
 ### Answer
-(replace this line with your answer)
+The relationship between Factory and Vehicle is an Aggregation. 
+Because: As is shown in the diagram that it is a hollow diamond, which indicates that it is an Aggregation relationship. 
++ If Vehicle class has been deleted, Factory Class will not be deleted and it will continue working, but some functionalities that related to Vehicle class could be affected.  
 
 
 ---
