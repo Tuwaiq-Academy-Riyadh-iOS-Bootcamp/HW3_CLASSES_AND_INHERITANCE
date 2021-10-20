@@ -26,24 +26,3 @@ class Factory{
         vehicles = vehicles.filter{$0.name != name}
     }
 }
-class Vehicle {
-    var name : String
-    var model : String
-    
-    init(name : String, model : String){
-        self.name = name
-        self.model = model
-    }
-}
-
-class Bicycle  : Vehicle{
-    
-}
-
-class MotorCycle : Vehicle{
-    
-}
-
-class Car : Vehicle{
-    
-}

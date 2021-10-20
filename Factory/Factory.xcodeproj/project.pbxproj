@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8262AAD27207A5700402348 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8262AAC27207A5700402348 /* Vehicle.swift */; };
+		B8262AAF27207ABB00402348 /* Bicycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8262AAE27207ABB00402348 /* Bicycle.swift */; };
+		B8262AB127207AE300402348 /* MotorCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8262AB027207AE300402348 /* MotorCycle.swift */; };
+		B8262AB327207B0A00402348 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8262AB227207B0A00402348 /* Car.swift */; };
 		B8A8EB33271EC81600A3B7FB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A8EB32271EC81600A3B7FB /* main.swift */; };
 		B8A8EB3A271EC83F00A3B7FB /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A8EB39271EC83F00A3B7FB /* Factory.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +28,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B8262AAC27207A5700402348 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		B8262AAE27207ABB00402348 /* Bicycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bicycle.swift; sourceTree = "<group>"; };
+		B8262AB027207AE300402348 /* MotorCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorCycle.swift; sourceTree = "<group>"; };
+		B8262AB227207B0A00402348 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		B8A8EB2F271EC81600A3B7FB /* Factory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Factory; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8A8EB32271EC81600A3B7FB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B8A8EB39271EC83F00A3B7FB /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
@@ -61,6 +69,10 @@
 			children = (
 				B8A8EB32271EC81600A3B7FB /* main.swift */,
 				B8A8EB39271EC83F00A3B7FB /* Factory.swift */,
+				B8262AAC27207A5700402348 /* Vehicle.swift */,
+				B8262AAE27207ABB00402348 /* Bicycle.swift */,
+				B8262AB027207AE300402348 /* MotorCycle.swift */,
+				B8262AB227207B0A00402348 /* Car.swift */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -123,8 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8262AAD27207A5700402348 /* Vehicle.swift in Sources */,
+				B8262AB127207AE300402348 /* MotorCycle.swift in Sources */,
+				B8262AB327207B0A00402348 /* Car.swift in Sources */,
 				B8A8EB3A271EC83F00A3B7FB /* Factory.swift in Sources */,
 				B8A8EB33271EC81600A3B7FB /* main.swift in Sources */,
+				B8262AAF27207ABB00402348 /* Bicycle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
