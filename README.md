@@ -24,7 +24,7 @@ The needed system is illustrated in this diagram, you can use it to understand t
 
 **Please make the system as described above and then answer this question at this file in the next line after the question**
 ## Question
-- What is the type of the association used between the `Factory` and `Vehicle`? and why?
+- What is the type of the association used between the `Factory` and `Vehicle`? and why?  aggregation , because when deleting class Factory, we don't have to delete class Vehicle
 
 ### Answer
 (replace this line with your answer)
