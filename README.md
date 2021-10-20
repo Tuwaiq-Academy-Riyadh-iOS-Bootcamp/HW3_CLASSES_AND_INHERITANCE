@@ -27,7 +27,7 @@ The needed system is illustrated in this diagram, you can use it to understand t
 - What is the type of the association used between the `Factory` and `Vehicle`? and why?
 
 ### Answer
-(replace this line with your answer)
+- Aggregation, cause of the drawing in README file the diamond is nor filled also for factory we did not need a new copy spacial for the factory class
 
 
 ---
