@@ -27,7 +27,7 @@ The needed system is illustrated in this diagram, you can use it to understand t
 - What is the type of the association used between the `Factory` and `Vehicle`? and why?
 
 ### Answer
-(replace this line with your answer)
+Aggregation, because the class Factory has an array of  type Veihcle. When the factory is destroyed, the cars created by it will still in the sercice.
 
 
 ---
