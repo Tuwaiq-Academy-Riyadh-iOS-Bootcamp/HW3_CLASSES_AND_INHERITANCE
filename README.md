@@ -27,7 +27,7 @@ The needed system is illustrated in this diagram, you can use it to understand t
 - What is the type of the association used between the `Factory` and `Vehicle`? and why?
 
 ### Answer
-(replace this line with your answer)
+The type of the association used between the factory and vehcle is Aggregation , because factory and vehicles have relationship but both can also exist independently.
 
 
 ---
