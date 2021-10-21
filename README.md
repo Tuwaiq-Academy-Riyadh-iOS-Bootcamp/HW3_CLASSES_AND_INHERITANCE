@@ -27,7 +27,7 @@ The needed system is illustrated in this diagram, you can use it to understand t
 - What is the type of the association used between the `Factory` and `Vehicle`? and why?
 
 ### Answer
-(replace this line with your answer)
+(it is a Aggregation relationship because `Factory` and `Vehicle` don't full depend of others and no lifetime dependency)
 
 
 ---
