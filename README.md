@@ -27,11 +27,10 @@ The needed system is illustrated in this diagram, you can use it to understand t
 - What is the type of the association used between the `Factory` and `Vehicle`? and why?
 
 ### Answer
-association is : Composition
+association is : aggregation
 
 
-Inside the factory, vehicles like { car - bicycles - others } are manufactured, so without the factory, there are no vehicles
-
+Because if the factory is closed, the cars or any vehical will not be deleted or destroyed
 
 ---
 ## Notes:
