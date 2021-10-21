@@ -27,8 +27,10 @@ The needed system is illustrated in this diagram, you can use it to understand t
 - What is the type of the association used between the `Factory` and `Vehicle`? and why?
 
 ### Answer
-(replace this line with your answer)
+association is : aggregation
 
+
+Because if the factory is closed, the cars or any vehical will not be deleted or destroyed
 
 ---
 ## Notes:
