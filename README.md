@@ -27,7 +27,45 @@ The needed system is illustrated in this diagram, you can use it to understand t
 - What is the type of the association used between the `Factory` and `Vehicle`? and why?
 
 ### Answer
-(replace this line with your answer)
+aggregation because vehicle has association with factory. but it depends on it
+
+
+code
+
+class factory {
+    var Vehicles : [Vehicle]
+    
+    var name : String
+    var model : String
+    
+    init (_ name : String,_ model : String) {
+        self.name = name
+        self.model = model
+    }
+    
+    func addVehicle (v : Vehicle) {
+        Vehicles.append(v)
+    }
+    func printVehicle () {
+        print(name : String)
+    }
+    func removeVehicle () {
+        name.removeAll(where: {name in return name == name})
+    }
+    
+    class Vehicle  {
+       
+        class Bicycle : Vehicle {
+            
+        }
+        class Motorcycle : Vehicle {
+            
+        }
+        class Car : Vehicle {
+            
+        }
+    }
+}
 
 
 ---
