@@ -27,7 +27,7 @@ The needed system is illustrated in this diagram, you can use it to understand t
 - What is the type of the association used between the `Factory` and `Vehicle`? and why?
 
 ### Answer
-(replace this line with your answer)
+(It's a Aggregation relationship - Cause Vehicle is not fully depend on Factory. If there is no Factory,Vehicle still gonna be exist)
 
 
 ---
