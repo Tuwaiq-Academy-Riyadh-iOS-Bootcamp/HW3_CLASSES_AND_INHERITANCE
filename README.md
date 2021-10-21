@@ -27,7 +27,7 @@ The needed system is illustrated in this diagram, you can use it to understand t
 - What is the type of the association used between the `Factory` and `Vehicle`? and why?
 
 ### Answer
-(replace this line with your answer)
+it is an Aggregation. Factory object own Vehicle object but we cannot say Vehicle object has no significance without Factory Object. It can be used without it . so it’s mean the dependent object it can standalone and exist even if the object of owning class is dead.
 
 
 ---
