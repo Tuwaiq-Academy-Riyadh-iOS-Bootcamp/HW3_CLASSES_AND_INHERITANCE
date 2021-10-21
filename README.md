@@ -27,7 +27,8 @@ The needed system is illustrated in this diagram, you can use it to understand t
 - What is the type of the association used between the `Factory` and `Vehicle`? and why?
 
 ### Answer
-(replace this line with your answer)
+( The association used is Aggregation, 
+ Because the manufacture of vehicles does not particularly depend on this factory, so if the factory is deleted, the vehicles will stil exist, and can prdused by another factory. )
 
 
 ---
