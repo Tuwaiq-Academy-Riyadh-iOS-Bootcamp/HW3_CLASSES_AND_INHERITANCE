@@ -27,7 +27,7 @@ The needed system is illustrated in this diagram, you can use it to understand t
 - What is the type of the association used between the `Factory` and `Vehicle`? and why?
 
 ### Answer
-(replace this line with your answer)
+(aggregation, because the diamond wasn't colored and logically if we delete Factory the cars will not be distroyed)
 
 
 ---
