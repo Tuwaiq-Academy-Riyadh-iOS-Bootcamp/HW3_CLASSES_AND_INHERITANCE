@@ -27,7 +27,7 @@ The needed system is illustrated in this diagram, you can use it to understand t
 - What is the type of the association used between the `Factory` and `Vehicle`? and why?
 
 ### Answer
-(replace this line with your answer)
+(aggregation beacause the relation between them is not full dependent, that's mean if they vehicle is ended the factory is still stay)
 
 
 ---
